@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    min-height: 715px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    background-color: #88CCF1;
+
+}
+
+h3{
+    color: rgb(245, 205, 76);
+    text-shadow: 2px 2px black;
+}
+
+main{
+    display: flex;
+    background-image: url("https://www.torforgeblog.com/wp-content/uploads/2019/07/DeadliestDragonsFeature-809x492.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+section {
+    flex: 2; 
+    /* background-color: #2D848A; */
+    height: 100%;
+}
+
+aside {
+    flex: 1;
+    background-color: rgba(250, 189, 185, 0.349);
+    height: 100%;
+    margin-bottom: 45px; 
+}
+
+aside h3 {
+    text-align: center;
+}
+
+.iImportant {
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+}
+
+.iImportant.fas {
+    color: rgb(216, 70, 13);
+    text-shadow: 2px 2px black;
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form div label{
+    margin-bottom: 3px;
+}
+
+.form-label{
+    color: rgb(245, 205, 76);
+    text-shadow: 2px 2px black;
+    
+}
+
+.button-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.txtMain{
+    margin-left: 600px;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(216, 70, 13);
+    color: rgb(245, 205, 76);
+}
+
+.iImportant{
+    color: rgb(245, 205, 76);
+}
+
+/***************************************/
+/***********Styles for the Task ********/
+/***************************************/
+
+
+.task {
+    display: flex;
+    border: 1px solid red;
+    border-style: outset;
+    background-color: rgb(216, 70, 13, 0.39);
+    padding: 10px 20px;
+    margin: 10px 10px;
+    color: rgb(245, 205, 76);
+    width: 600px;
+}
+
+.task .task-title {
+    flex: 2;
+}
+
+
+.task .task-location {
+    flex: 1;
+}
+
+.task .task-location label{
+    display: block;
+}
